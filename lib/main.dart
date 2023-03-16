@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:timer_river/my_Packages/sectioned_page.dart';
+import 'package:timer_river/screens/home_page/home_page.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           primarySwatch: Colors.blue,
         ),
-        home: SectionedPage());
+        home: HomePage());
   }
 }
